@@ -1,13 +1,41 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+	<title></title>
 </head>
 <body>
-    <form action="http://localhost/pemrogramanweb/proses.php" method="post">
-     
-    </form>
+
+<style type="text/css">
+	*{
+		font-family: lato;
+	}
+
+</style>
+
+<form action="http://localhost/pemogramanweb/proses.php" method="GET">
+	
+	<input name="angka1" type="number" placeholder="angka1">
+
+	<select name="operasi">
+		<option value="Pilihan">==== PILIH OPERASI ====</option>
+		<option value="tambah">+</option>
+		<option value="kurang">-</option>
+		<option value="kali">*</option>
+		<option value="bagi">/</option>
+
+	</select>
+
+	<input type="number" name="angka2" placeholder="angka2">
+
+	
+
+	<input type="submit" name="submit" value="Hasilkan">
+
+
+
+
+</form>
+
+
 </body>
 </html>
